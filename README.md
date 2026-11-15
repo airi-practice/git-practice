@@ -54,9 +54,13 @@ Git は、ファイルの変更履歴を記録してくれるソフトだよ。�
 
    ![Git for Windows の公式サイトのトップページ](docs/images/setup-git-01-open-site.svg)
 
-2. 「Download」ボタンを押して、インストーラーをダウンロードする。
+2. 「Download」ボタンを押す。ソフトの配布ページ(GitHub)が開く。
 
    ![「Download」ボタンの位置](docs/images/setup-git-02-download.svg)
+
+   ページを下へ進み、「Assets」の一番上にある「Git-バージョン-64-bit.exe」を押して、インストーラーをダウンロードする。
+
+   ![「Git-バージョン-64-bit.exe」のリンクの位置](docs/images/setup-git-02b-releases.svg)
 
 #### インストール
 

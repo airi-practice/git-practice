@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="324" viewBox="0 0 900 324" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>スタートメニューの「Git Bash」</title>
   <desc>スタートメニューの「Git Bash」。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="274" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">スタートメニュー</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <rect x="300" y="72" width="220" height="102" fill="#fff" stroke="#999" stroke-width="2"/>
-  <rect x="302" y="74" width="216" height="30" fill="#bee3f8"/>
-  <text x="314" y="95" font-size="15" font-weight="bold" fill="#1a365d">Git Bash</text>
-  <rect x="300" y="72" width="220" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <text x="314" y="129" font-size="15" fill="#222">Git CMD</text>
-  <text x="314" y="163" font-size="15" fill="#222">Git GUI</text>
-  <path d="M207.40000000000003,89 L294,89" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="26" y="95" font-size="15" font-weight="bold" fill="#c53030">1. 「Git Bash」を開く</text>
+  <rect width="900" height="324" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="300" rx="10" fill="#eef1f6" stroke="#9aa5b5" stroke-width="1.5"/>
+  <rect x="34" y="30" width="572" height="40" rx="20" fill="#fff" stroke="#c9d1dc" stroke-width="1"/>
+  <circle cx="58" cy="50" r="7" fill="none" stroke="#555" stroke-width="1.8"/><path d="M63 55l6 6" stroke="#555" stroke-width="1.8"/>
+  <text x="82" y="56" font-size="16" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git Bash</text>
+  <text x="38" y="104" font-size="13" font-weight="bold" fill="#444" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">最も一致する検索結果</text>
+  <rect x="34" y="116" width="360" height="72" rx="8" fill="#fff" stroke="#c9d1dc" stroke-width="1"/>
+  <rect x="56.599999999999994" y="136.6" width="30.800000000000004" height="30.800000000000004" rx="3.3000000000000003" fill="#f05133" transform="rotate(45 72 152)"/><path d="M67.6 144.3V160.8M67.6 149.8L77.5 143.2" stroke="#fff" stroke-width="2.8600000000000003" fill="none"/><circle cx="67.6" cy="144.3" r="3.3000000000000003" fill="#fff"/><circle cx="67.6" cy="160.8" r="3.3000000000000003" fill="#fff"/><circle cx="77.5" cy="143.2" r="3.3000000000000003" fill="#fff"/>
+  <text x="106" y="148" font-size="16" font-weight="bold" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git Bash</text><text x="106" y="170" font-size="13" fill="#555" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">アプリ</text>
+  <rect x="30" y="112" width="368" height="80" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <text x="38" y="224" font-size="13" font-weight="bold" fill="#444" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">アプリ</text>
+  <rect x="34" y="236" width="360" height="30" rx="6" fill="#f7f9fc"/><rect x="46.3" y="243.3" width="15.400000000000002" height="15.400000000000002" rx="1.6500000000000001" fill="#f05133" transform="rotate(45 54 251)"/><path d="M51.8 247.15V255.4M51.8 249.9L56.75 246.6" stroke="#fff" stroke-width="1.4300000000000002" fill="none"/><circle cx="51.8" cy="247.15" r="1.6500000000000001" fill="#fff"/><circle cx="51.8" cy="255.4" r="1.6500000000000001" fill="#fff"/><circle cx="56.75" cy="246.6" r="1.6500000000000001" fill="#fff"/><text x="76" y="257" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git CMD</text>
+  <rect x="34" y="268" width="360" height="30" rx="6" fill="#f7f9fc"/><rect x="46.3" y="275.3" width="15.400000000000002" height="15.400000000000002" rx="1.6500000000000001" fill="#f05133" transform="rotate(45 54 283)"/><path d="M51.8 279.15V287.4M51.8 281.9L56.75 278.6" stroke="#fff" stroke-width="1.4300000000000002" fill="none"/><circle cx="51.8" cy="279.15" r="1.6500000000000001" fill="#fff"/><circle cx="51.8" cy="287.4" r="1.6500000000000001" fill="#fff"/><circle cx="56.75" cy="278.6" r="1.6500000000000001" fill="#fff"/><text x="76" y="289" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git GUI</text>
+  <path d="M648,152 L406,152" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="158" font-size="15" font-weight="bold" fill="#c53030">1. 「Git Bash」を開く</text>
 </svg>

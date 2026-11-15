@@ -1,27 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="308" viewBox="0 0 900 308" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>Language の欄を日本語にした設定画面</title>
   <desc>Language の欄を日本語にした設定画面。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="308" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="284" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">Settings - TortoiseGit</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <text x="40" y="86" font-size="13" fill="#555">左の一覧で「General」を選んだ状態</text>
-  <text x="40" y="116" font-size="20" font-weight="bold" fill="#222">General</text>
-  <text x="40" y="158" font-size="15" fill="#222">Language</text>
-  <rect x="190" y="138" width="380" height="30" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/>
-  <text x="200" y="158" font-size="15" fill="#222" font-family="Consolas, 'Courier New', monospace">日本語</text>
-  <path d="M544 150h12l-6 8z" fill="#666"/>
-  <rect x="186" y="134" width="388" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <line x1="11" y1="228" x2="889" y2="228" stroke="#999" stroke-opacity="0.5"/>
-  <rect x="770" y="242" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#999" stroke-width="1"/><text x="818" y="264" font-size="14" fill="#333" text-anchor="middle">Cancel</text>
-  <rect x="662" y="242" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#e53e3e" stroke-width="2"/><text x="710" y="264" font-size="14" fill="#333" text-anchor="middle">OK</text>
-  <rect x="659" y="239" width="102" height="40" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <path d="M630,153 L582,153" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="640" y="159" font-size="15" font-weight="bold" fill="#c53030">1. 日本語にする</text>
-  <path d="M710,216 L710,234" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="710" y="210" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">2. 「OK」を押す</text>
+  <rect width="900" height="404" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="380" rx="6" fill="#fff" stroke="#7a7a7a" stroke-width="1.5"/>
+  <rect x="11" y="11" width="618" height="31" fill="#fff"/><ellipse cx="28" cy="27" rx="9.350000000000001" ry="6.6000000000000005" fill="#7fb0cf" stroke="#2f5f7d" stroke-width="0.8250000000000001"/><circle cx="37.9" cy="25.9" r="2.75" fill="#a9cfe4" stroke="#2f5f7d" stroke-width="0.8250000000000001"/><text x="27.45" y="29.75" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git</text><text x="48" y="31" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Settings - TortoiseGit</text><path d="M610 22l10 10M620 22l-10 10" stroke="#222" stroke-width="1.2" fill="none"/>
+  <rect x="11" y="42" width="618" height="347" fill="#f0f0f0"/>
+  <rect x="22" y="54" width="180" height="272" fill="#fff" stroke="#828790" stroke-width="1"/>
+  <text x="34" y="77" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Settings</text>
+  <rect x="24" y="86" width="176" height="24" fill="#cfe3fa"/>
+  <text x="52" y="103" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">General</text>
+  <text x="52" y="129" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Context Menu</text>
+  <text x="52" y="155" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Dialogs 1</text>
+  <text x="52" y="181" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Dialogs 2</text>
+  <text x="52" y="207" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Colours</text>
+  <text x="52" y="233" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Network</text>
+  <text x="52" y="259" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">External Programs</text>
+  <text x="222" y="76" font-size="16" font-weight="bold" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">General</text>
+  <path d="M216 86h394" stroke="#c8c8c8"/>
+  <text x="222" y="126" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Language:</text>
+  <rect x="300" y="108" width="220" height="26" fill="#fff" stroke="#7a7a7a" stroke-width="1"/><text x="308" y="126" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">日本語</text><path d="M500 118l5 5l5-5" fill="none" stroke="#444" stroke-width="1.5"/>
+  <rect x="296" y="104" width="228" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <rect x="222" y="160" width="14" height="14" fill="#fff" stroke="#333" stroke-width="1"/><path d="M225 167l3 3l5-6" fill="none" stroke="#222" stroke-width="2"/><text x="246" y="172" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Check for newer versions every week</text>
+  <rect x="246" y="188" width="110" height="28" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="301" y="207" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Check now</text>
+  <path d="M11 328h618" stroke="#c8c8c8"/>
+  <rect x="290" y="350" width="100" height="30" rx="3" fill="#fdfdfd" stroke="#0078d4" stroke-width="2"/><text x="340" y="370" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">OK</text><rect x="400" y="350" width="100" height="30" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="450" y="370" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Cancel</text><rect x="510" y="350" width="100" height="30" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="560" y="370" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Apply</text>
+  <rect x="287" y="347" width="106" height="36" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M648,121 L532,121" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="127" font-size="15" font-weight="bold" fill="#c53030">1. 日本語にする</text>
+  <path d="M340,328 L340,344" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="340" y="322" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">2. 「OK」を押す</text>
 </svg>

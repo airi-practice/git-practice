@@ -1,19 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="414" viewBox="0 0 900 414" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>「Download」ボタンの位置</title>
   <desc>「Download」ボタンの位置。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="274" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <rect x="100" y="18" width="700" height="24" rx="12" fill="#fff" stroke="#999" stroke-width="1.5"/>
-  <text x="118" y="35" font-size="13" fill="#333" font-family="Consolas, 'Courier New', monospace">https://gitforwindows.org/</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <text x="40" y="92" font-size="20" font-weight="bold" fill="#222">Git for Windows</text>
-  <text x="40" y="131" font-size="15" fill="#222">Windows で Git を使うための公式サイト</text>
-  <rect x="40" y="146" width="128.64" height="40" rx="4" fill="#e2e8f0" stroke="#999" stroke-width="1"/><text x="104.32" y="171" font-size="14" fill="#333" text-anchor="middle">Download</text>
-  <rect x="36" y="142" width="136.64" height="48" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <path d="M630,166 L180.64,166" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="640" y="172" font-size="15" font-weight="bold" fill="#c53030">1. 「Download」を押す</text>
+  <rect width="900" height="414" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="390" rx="6" fill="#fff" stroke="#7a7a7a" stroke-width="1.5"/>
+  <path d="M10 16a6 6 0 0 1 6-6h608a6 6 0 0 1 6 6v76h-620z" fill="#dee1e6"/>
+  <path d="M20 50v-26a6 6 0 0 1 6-6h190a6 6 0 0 1 6 6v26z" fill="#fff"/>
+  <circle cx="38" cy="35" r="7" fill="#f05133"/>
+  <text x="52" y="40" font-size="13" fill="#222" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git for Windows</text>
+  <path d="M206 30l8 8M214 30l-8 8" stroke="#555" stroke-width="1.2"/>
+  <path d="M546 28h10M578 23h10v10h-10zM610 23l10 10M620 23l-10 10" stroke="#222" stroke-width="1.2" fill="none"/>
+  <rect x="10" y="50" width="620" height="42" fill="#fff"/>
+  <path d="M28 71h14m-6-6l-6 6l6 6M62 71h14m-6-6l6 6l-6 6" stroke="#555" stroke-width="1.6" fill="none"/>
+  <path d="M102 66a6 6 0 1 0 2 5m-1-8v6h-6" stroke="#555" stroke-width="1.6" fill="none"/>
+  <rect x="126" y="57" width="488" height="28" rx="14" fill="#eef1f5"/>
+  <rect x="140" y="68" width="9" height="7" rx="1" fill="#555"/><path d="M142 68v-3a2.5 2.5 0 0 1 5 0v3" stroke="#555" stroke-width="1.3" fill="none"/>
+  <text x="158" y="76" font-size="14" fill="#222" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">gitforwindows.org</text>
+  <clipPath id="pg-setup-git-02-download"><rect x="11" y="92" width="618" height="306"/></clipPath><g clip-path="url(#pg-setup-git-02-download)">
+  <defs><linearGradient id="gh-setup-git-02-download" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9e9e9"/><stop offset="1" stop-color="#b9b9b9"/></linearGradient><linearGradient id="gb-setup-git-02-download" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a88d6"/><stop offset="1" stop-color="#2d63b3"/></linearGradient></defs>
+  <rect x="11" y="92" width="618" height="300" fill="url(#gh-setup-git-02-download)"/>
+  <rect x="11" y="350" width="618" height="8" fill="#2a5db0"/><rect x="11" y="358" width="618" height="40" fill="#3573c6"/>
+  <text x="35" y="134" font-size="36" font-weight="bold" fill="#555" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">git</text><text x="89" y="134" font-size="16" font-weight="bold" fill="#6a6a6a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">for windows</text>
+  <text x="35" y="158" font-size="13" fill="#3a78c4" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">VERSION 2.56.1</text>
+  <text x="379" y="130" font-size="13" font-weight="bold" fill="#3a78c4" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">FAQ</text><text x="424" y="130" font-size="13" fill="#3a78c4" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">REPOSITORY</text><text x="509" y="130" font-size="13" fill="#3a78c4" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">DISCUSSIONS</text>
+  <path d="M35 140h570" stroke="#bdbdbd"/>
+  <rect x="64.5" y="185.5" width="133" height="133" rx="14.25" fill="#f05133" transform="rotate(45 131 252)"/><path d="M112 218.75V290M112 242.5L154.75 214" stroke="#fff" stroke-width="12.35" fill="none"/><circle cx="112" cy="218.75" r="14.25" fill="#fff"/><circle cx="112" cy="290" r="14.25" fill="#fff"/><circle cx="154.75" cy="214" r="14.25" fill="#fff"/>
+  <text x="281" y="220" font-size="24" fill="#7a7a7a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">We bring the</text><text x="281" y="252" font-size="24" fill="#7a7a7a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">awesome</text><text x="381" y="252" font-size="24" font-weight="bold" fill="#666" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git</text><text x="421" y="252" font-size="24" fill="#7a7a7a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">SCM</text><text x="281" y="284" font-size="24" fill="#7a7a7a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">to Windows</text>
+  <path d="M281 300h324" stroke="#bdbdbd"/>
+  <rect x="281" y="312" width="150" height="36" rx="4" fill="url(#gb-setup-git-02-download)" stroke="#1f4f96"/><text x="356" y="336" font-size="16" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Download</text><rect x="441" y="312" width="150" height="36" rx="4" fill="url(#gb-setup-git-02-download)" stroke="#1f4f96"/><text x="516" y="336" font-size="16" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Contribute</text>
+  <rect x="277" y="308" width="158" height="44" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <text x="320" y="384" font-size="18" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Tools &amp; Features</text>
+  </g>
+  <path d="M648,330 L443,330" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="336" font-size="15" font-weight="bold" fill="#c53030">1. 「Download」を押す</text>
 </svg>

@@ -1,31 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="332" viewBox="0 0 900 332" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>名前とメールアドレスの画面</title>
   <desc>名前とメールアドレスの画面。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="332" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="308" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">TortoiseGit First Start Wizard</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <text x="40" y="92" font-size="20" font-weight="bold" fill="#222">Configure user information</text>
-  <text x="40" y="134" font-size="15" fill="#222">Name</text>
-  <rect x="190" y="114" width="380" height="30" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/>
-  <text x="200" y="134" font-size="15" fill="#222" font-family="Consolas, 'Courier New', monospace">あなたの名前</text>
-  <rect x="186" y="110" width="388" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <text x="40" y="182" font-size="15" fill="#222">Email</text>
-  <rect x="190" y="162" width="380" height="30" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/>
-  <text x="200" y="182" font-size="15" fill="#222" font-family="Consolas, 'Courier New', monospace">you@example.com</text>
-  <rect x="186" y="158" width="388" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <line x1="11" y1="252" x2="889" y2="252" stroke="#999" stroke-opacity="0.5"/>
-  <rect x="770" y="266" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#999" stroke-width="1"/><text x="818" y="288" font-size="14" fill="#333" text-anchor="middle">Cancel</text>
-  <rect x="662" y="266" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#e53e3e" stroke-width="2"/><text x="710" y="288" font-size="14" fill="#333" text-anchor="middle">Next ></text>
-  <rect x="659" y="263" width="102" height="40" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <path d="M630,129 L582,129" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="640" y="135" font-size="15" font-weight="bold" fill="#c53030">1. 5-1 の名前か確かめる</text>
-  <path d="M630,177 L582,177" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="640" y="183" font-size="15" font-weight="bold" fill="#c53030">2. 5-1 のアドレスか確かめる</text>
-  <path d="M710,240 L710,258" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="710" y="234" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">3. 「Next」を押す</text>
+  <rect width="900" height="360" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="336" rx="6" fill="#fff" stroke="#7a7a7a" stroke-width="1.5"/>
+  <rect x="11" y="11" width="618" height="31" fill="#fff"/>
+  <ellipse cx="28" cy="27" rx="9.350000000000001" ry="6.6000000000000005" fill="#7fb0cf" stroke="#2f5f7d" stroke-width="0.8250000000000001"/><circle cx="37.9" cy="25.9" r="2.75" fill="#a9cfe4" stroke="#2f5f7d" stroke-width="0.8250000000000001"/><text x="27.45" y="29.75" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git</text>
+  <text x="48" y="31" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">TortoiseGit First Start Wizard</text>
+  <path d="M546 27h10M578 22h10v10h-10zM610 22l10 10M620 22l-10 10" stroke="#222" stroke-width="1.2" fill="none"/>
+  <rect x="11" y="42" width="618" height="212" fill="#f0f0f0"/>
+  <rect x="11" y="42" width="618" height="62" fill="#fff"/>
+  <path d="M11 104h618" stroke="#c8c8c8"/>
+  <text x="34" y="68" font-size="15" font-weight="bold" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Configure user information</text>
+  <text x="52" y="90" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Your name and e-mail address are saved in every commit.</text>
+  <ellipse cx="584" cy="73" rx="18.700000000000003" ry="13.200000000000001" fill="#7fb0cf" stroke="#2f5f7d" stroke-width="1.6500000000000001"/><circle cx="603.8" cy="70.8" r="5.5" fill="#a9cfe4" stroke="#2f5f7d" stroke-width="1.6500000000000001"/><text x="582.9" y="78.5" font-size="13.200000000000001" font-weight="bold" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git</text>
+  <path d="M11 254h618" stroke="#c8c8c8"/>
+  <text x="34" y="146" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Name</text>
+  <rect x="134" y="126" width="270" height="28" fill="#fff" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="142" y="145" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">あなたの名前</text>
+  <rect x="130" y="122" width="278" height="36" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <text x="34" y="188" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Email</text>
+  <rect x="134" y="168" width="270" height="28" fill="#fff" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="142" y="187" font-size="14" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">you@example.com</text>
+  <rect x="130" y="164" width="278" height="36" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <rect x="520" y="300" width="92" height="30" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="566" y="320" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Cancel</text>
+  <rect x="418" y="300" width="92" height="30" rx="3" fill="#fdfdfd" stroke="#0078d4" stroke-width="2"/><text x="464" y="320" font-size="14" fill="#1a1a1a" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Next ></text>
+  <rect x="415" y="297" width="98" height="36" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M648,140 L416,140" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="146" font-size="15" font-weight="bold" fill="#c53030">1. 5-1 の名前か確かめる</text>
+  <path d="M648,182 L416,182" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="188" font-size="15" font-weight="bold" fill="#c53030">2. 5-1 のアドレスか確かめる</text>
+  <path d="M464,278 L464,294" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="464" y="272" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">3. 「Next」を押す</text>
 </svg>

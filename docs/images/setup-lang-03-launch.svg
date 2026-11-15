@@ -1,18 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="375" viewBox="0 0 900 375" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>ダウンロードフォルダーにある言語パック</title>
   <desc>ダウンロードフォルダーにある言語パック。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="274" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">ダウンロード</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <path d="M40 72h16l8 8v22h-24z" fill="#fff" stroke="#666" stroke-width="2"/>
-  <text x="76" y="93" font-size="15" font-weight="bold" fill="#222" font-family="Consolas, 'Courier New', monospace">TortoiseGit-LanguagePack-(バージョン)-64bit-ja.msi</text>
-  <rect x="34" y="68" width="483" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <text x="40" y="132" font-size="13" fill="#555">ダウンロードフォルダーの中身</text>
-  <path d="M630,87 L525,87" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="640" y="93" font-size="15" font-weight="bold" fill="#c53030">1. ダブルクリックする</text>
+  <rect width="900" height="375" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="351" rx="6" fill="#fff" stroke="#7a7a7a" stroke-width="1.5"/>
+  <path d="M10 16a6 6 0 0 1 6-6h608a6 6 0 0 1 6 6v110h-620z" fill="#f3f3f3"/>
+  <path d="M20 46v-24a6 6 0 0 1 6-6h160a6 6 0 0 1 6 6v24z" fill="#fff"/>
+  <path d="M32 25a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="66" y="37" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ダウンロード</text><path d="M178 27l8 8M186 27l-8 8" stroke="#555" stroke-width="1.2"/>
+  <path d="M546 27h10M578 22h10v10h-10zM610 22l10 10M620 22l-10 10" stroke="#222" stroke-width="1.2" fill="none"/>
+  <rect x="10" y="46" width="620" height="80" fill="#fff"/>
+  <path d="M28 66h12m-6-6v12" stroke="#1a73e8" stroke-width="2"/><text x="50" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">新規作成</text><path d="M108 65l4 4l4-4" stroke="#555" fill="none"/>
+  <path d="M140 56v20" stroke="#ddd"/>
+  <rect x="160" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="196" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="232" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="268" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <text x="310" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">並べ替え</text><text x="382" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">表示</text>
+  <path d="M28 106h14m-6-6l-6 6l6 6M58 106h14m-6-6l6 6l-6 6M92 112v-12m-6 6l6-6l6 6" stroke="#555" stroke-width="1.5" fill="none"/>
+  <rect x="116" y="92" width="330" height="28" rx="4" fill="#fff" stroke="#c8c8c8" stroke-width="1"/><text x="128" y="111" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">PC  >  ダウンロード</text>
+  <rect x="456" y="92" width="158" height="28" rx="4" fill="#fff" stroke="#c8c8c8" stroke-width="1"/><text x="468" y="111" font-size="13" fill="#888" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">検索</text>
+  <path d="M150 126v235" stroke="#e5e5e5"/>
+  <path d="M24 143a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="154" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ホーム</text>
+  <path d="M24 171a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="182" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ギャラリー</text>
+  <path d="M22 200h116" stroke="#ddd"/>
+  <path d="M24 227a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="238" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">デスクトップ</text>
+  <rect x="18" y="248" width="126" height="26" rx="4" fill="#dce8f8"/>
+  <path d="M24 255a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#3a8ad6"/><text x="56" y="266" font-size="13" font-weight="bold" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ダウンロード</text>
+  <path d="M24 283a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="294" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ドキュメント</text>
+  <path d="M24 311a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="322" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ピクチャ</text>
+  <text x="194" y="148" font-size="13" fill="#555" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">名前</text><text x="534" y="148" font-size="13" fill="#555" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">更新日時</text>
+  <path d="M156 158h474" stroke="#eee"/>
+  <rect x="156" y="162" width="468" height="32" rx="3" fill="#e8f0fb"/>
+  <rect x="164" y="167" width="22" height="22" rx="3" fill="#fff" stroke="#6b7a8d" stroke-width="1.5"/><path d="M168 176l7-5l7 5v8h-14z" fill="#7fb0cf" stroke="#2f5f7d" stroke-width="1.2"/><text x="194" y="183" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">TortoiseGit-LanguagePack-2.19.0.0-64bit-ja.msi</text><text x="534" y="183" font-size="13" fill="#555" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">2026/11/15</text>
+  <rect x="158" y="163" width="464" height="30" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M648,178 L630,178" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="184" font-size="15" font-weight="bold" fill="#c53030">1. ダブルクリックする</text>
 </svg>

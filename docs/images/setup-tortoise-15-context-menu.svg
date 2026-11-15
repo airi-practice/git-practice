@@ -1,24 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>右クリックメニューに TortoiseGit が出ている画面</title>
   <desc>右クリックメニューに TortoiseGit が出ている画面。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="900" height="274" fill="#ffffff"/>
-  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
-  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
-  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">フォルダー</text>
-  <text x="870" y="37" font-size="18" fill="#666">×</text>
-  <rect x="300" y="72" width="220" height="68" fill="#fff" stroke="#999" stroke-width="2"/>
-  <text x="314" y="95" font-size="15" fill="#222">New</text>
-  <rect x="302" y="108" width="216" height="30" fill="#bee3f8"/>
-  <text x="314" y="129" font-size="15" font-weight="bold" fill="#1a365d">TortoiseGit</text>
-  <path d="M498 117l8 6l-8 6z" fill="#666"/>
-  <rect x="300" y="106" width="220" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
-  <rect x="526" y="106" width="280" height="102" fill="#fff" stroke="#999" stroke-width="2"/>
-  <text x="540" y="129" font-size="15" fill="#222">Git Clone...</text>
-  <text x="540" y="163" font-size="15" fill="#222">Git Create repository here...</text>
-  <text x="540" y="197" font-size="15" fill="#222">Settings</text>
-  <path d="M232.60000000000005,123 L294,123" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
-  <text x="26" y="129" font-size="15" font-weight="bold" fill="#c53030">1. 「TortoiseGit」が出る</text>
+  <rect width="900" height="610" fill="#ffffff"/>
+  <rect x="10" y="10" width="620" height="586" rx="6" fill="#fff" stroke="#7a7a7a" stroke-width="1.5"/>
+  <path d="M10 16a6 6 0 0 1 6-6h608a6 6 0 0 1 6 6v110h-620z" fill="#f3f3f3"/>
+  <path d="M20 46v-24a6 6 0 0 1 6-6h160a6 6 0 0 1 6 6v24z" fill="#fff"/>
+  <path d="M32 25a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="66" y="37" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">新しいフォルダー</text><path d="M178 27l8 8M186 27l-8 8" stroke="#555" stroke-width="1.2"/>
+  <path d="M546 27h10M578 22h10v10h-10zM610 22l10 10M620 22l-10 10" stroke="#222" stroke-width="1.2" fill="none"/>
+  <rect x="10" y="46" width="620" height="80" fill="#fff"/>
+  <path d="M28 66h12m-6-6v12" stroke="#1a73e8" stroke-width="2"/><text x="50" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">新規作成</text><path d="M108 65l4 4l4-4" stroke="#555" fill="none"/>
+  <path d="M140 56v20" stroke="#ddd"/>
+  <rect x="160" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="196" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="232" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="268" y="61" width="16" height="14" rx="2" fill="none" stroke="#777" stroke-width="1"/>
+  <text x="310" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">並べ替え</text><text x="382" y="71" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">表示</text>
+  <path d="M28 106h14m-6-6l-6 6l6 6M58 106h14m-6-6l6 6l-6 6M92 112v-12m-6 6l6-6l6 6" stroke="#555" stroke-width="1.5" fill="none"/>
+  <rect x="116" y="92" width="330" height="28" rx="4" fill="#fff" stroke="#c8c8c8" stroke-width="1"/><text x="128" y="111" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">PC  >  ドキュメント  >  新しいフォルダー</text>
+  <rect x="456" y="92" width="158" height="28" rx="4" fill="#fff" stroke="#c8c8c8" stroke-width="1"/><text x="468" y="111" font-size="13" fill="#888" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">検索</text>
+  <path d="M150 126v470" stroke="#e5e5e5"/>
+  <path d="M24 143a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="154" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ホーム</text>
+  <path d="M24 171a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="182" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ギャラリー</text>
+  <path d="M22 200h116" stroke="#ddd"/>
+  <path d="M24 227a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="238" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">デスクトップ</text>
+  <path d="M24 255a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="266" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ダウンロード</text>
+  <rect x="18" y="276" width="126" height="26" rx="4" fill="#dce8f8"/>
+  <path d="M24 283a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#3a8ad6"/><text x="56" y="294" font-size="13" font-weight="bold" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ドキュメント</text>
+  <path d="M24 311a2 2 0 0 1 2-2h6l2 3h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-17a2 2 0 0 1-2-2z" fill="#f4c542"/><text x="56" y="322" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ピクチャ</text>
+  <text x="390" y="156" font-size="13" fill="#777" text-anchor="middle" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">このフォルダーは空です。</text>
+  <rect x="160" y="130" width="252" height="324" rx="6" fill="#fbfbfb" stroke="#b4b4b4"/>
+  <path d="M170 217h232" stroke="#d8d8d8"/>
+  <path d="M170 331h232" stroke="#d8d8d8"/>
+  <path d="M170 419h232" stroke="#d8d8d8"/>
+  <text x="198" y="150" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">表示(V)</text>
+  <path d="M394 140l5 5l-5 5" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="198" y="176" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">並べ替え(O)</text>
+  <path d="M394 166l5 5l-5 5" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="198" y="202" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">最新の情報に更新(E)</text>
+  <text x="198" y="238" font-size="13" fill="#aaa" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">貼り付け(P)</text>
+  <rect x="172" y="251" width="15" height="15" rx="3" fill="#444"/>
+  <text x="198" y="264" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">ターミナルで開く(T)</text>
+  <rect x="172" y="277" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="198" y="290" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Open Git GUI here</text>
+  <rect x="172" y="303" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="198" y="316" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Open Git Bash here</text>
+  <rect x="172" y="339" width="15" height="15" rx="3" fill="#d9a21b"/>
+  <text x="198" y="352" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git Clone...</text>
+  <rect x="172" y="365" width="15" height="15" rx="3" fill="#e0a33a"/>
+  <text x="198" y="378" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">Git Create repository here...</text>
+  <rect x="164" y="385" width="244" height="24" rx="3" fill="#cfe3fa"/>
+  <rect x="172" y="391" width="15" height="15" rx="3" fill="#6c8bb8"/>
+  <text x="198" y="404" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">TortoiseGit</text>
+  <path d="M394 394l5 5l-5 5" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="198" y="440" font-size="13" fill="#1a1a1a" font-family="'Segoe UI', Tahoma, Meiryo, sans-serif">新規作成(W)</text>
+  <path d="M394 430l5 5l-5 5" stroke="#444" stroke-width="1.4" fill="none"/>
+  <rect x="162" y="384" width="248" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M648,398 L418,398" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="656" y="404" font-size="15" font-weight="bold" fill="#c53030">1. 「TortoiseGit」が出る</text>
 </svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>右クリックメニューの「Settings」</title>
+  <desc>右クリックメニューの「Settings」。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="900" height="274" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
+  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
+  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">フォルダー</text>
+  <text x="870" y="37" font-size="18" fill="#666">×</text>
+  <rect x="300" y="72" width="220" height="68" fill="#fff" stroke="#999" stroke-width="2"/>
+  <text x="314" y="95" font-size="15" fill="#222">New</text>
+  <rect x="302" y="108" width="216" height="30" fill="#bee3f8"/>
+  <text x="314" y="129" font-size="15" font-weight="bold" fill="#1a365d">TortoiseGit</text>
+  <path d="M498 117l8 6l-8 6z" fill="#666"/>
+  <rect x="300" y="106" width="220" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <rect x="526" y="106" width="280" height="102" fill="#fff" stroke="#999" stroke-width="2"/>
+  <text x="540" y="129" font-size="15" fill="#222">Git Clone...</text>
+  <text x="540" y="163" font-size="15" fill="#222">Git Create repository here...</text>
+  <rect x="528" y="176" width="276" height="30" fill="#bee3f8"/>
+  <text x="540" y="197" font-size="15" font-weight="bold" fill="#1a365d">Settings</text>
+  <rect x="526" y="174" width="280" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M232.60000000000005,123 L294,123" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="26" y="129" font-size="15" font-weight="bold" fill="#c53030">1. 「TortoiseGit」を選ぶ</text>
+  <path d="M566,242 L566,216" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="536" y="262" font-size="15" font-weight="bold" fill="#c53030">2. 「Settings」を選ぶ</text>
+</svg>

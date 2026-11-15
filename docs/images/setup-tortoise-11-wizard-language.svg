@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="284" viewBox="0 0 900 284" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>初回設定の言語の画面</title>
+  <desc>初回設定の言語の画面。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="900" height="284" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="260" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
+  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
+  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">TortoiseGit First Start Wizard</text>
+  <text x="870" y="37" font-size="18" fill="#666">×</text>
+  <text x="40" y="92" font-size="20" font-weight="bold" fill="#222">Language</text>
+  <text x="40" y="134" font-size="15" fill="#222">Language</text>
+  <rect x="190" y="114" width="380" height="30" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/>
+  <text x="200" y="134" font-size="15" fill="#222" font-family="Consolas, 'Courier New', monospace">English</text>
+  <path d="M544 126h12l-6 8z" fill="#666"/>
+  <rect x="186" y="110" width="388" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <line x1="11" y1="204" x2="889" y2="204" stroke="#999" stroke-opacity="0.5"/>
+  <rect x="770" y="218" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#999" stroke-width="1"/><text x="818" y="240" font-size="14" fill="#333" text-anchor="middle">Cancel</text>
+  <rect x="662" y="218" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#e53e3e" stroke-width="2"/><text x="710" y="240" font-size="14" fill="#333" text-anchor="middle">Next ></text>
+  <rect x="659" y="215" width="102" height="40" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M630,129 L582,129" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="640" y="135" font-size="15" font-weight="bold" fill="#c53030">1. 「English」のまま</text>
+  <path d="M710,192 L710,210" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="710" y="186" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">2. 「Next」を押す</text>
+</svg>

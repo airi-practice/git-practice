@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>バージョンが表示された Git Bash</title>
+  <desc>バージョンが表示された Git Bash。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="900" height="274" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="250" rx="8" fill="#1e1e1e" stroke="#555" stroke-width="2"/>
+  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#333" stroke="#555" stroke-width="2"/>
+  <text x="24" y="36" font-size="15" font-weight="bold" fill="#e6e6e6">Git Bash</text>
+  <text x="870" y="37" font-size="18" fill="#ccc">×</text>
+  <text x="40" y="89" font-size="15" fill="#e6e6e6" font-family="Consolas, 'Courier New', monospace">USER01@PC MINGW64 ~</text>
+  <text x="40" y="121" font-size="15" font-weight="bold" fill="#ffffff" font-family="Consolas, 'Courier New', monospace">$ git --version</text>
+  <rect x="32" y="101" width="149" height="28" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <text x="40" y="153" font-size="15" fill="#e6e6e6" font-family="Consolas, 'Courier New', monospace">git version (バージョン番号)</text>
+  <path d="M630,115 L189,115" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="640" y="121" font-size="15" font-weight="bold" fill="#fc8181">1. Enter キーを押す</text>
+</svg>

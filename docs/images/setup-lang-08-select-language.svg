@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="308" viewBox="0 0 900 308" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>Language の欄を日本語にした設定画面</title>
+  <desc>Language の欄を日本語にした設定画面。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="900" height="308" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="284" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
+  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
+  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">Settings - TortoiseGit</text>
+  <text x="870" y="37" font-size="18" fill="#666">×</text>
+  <text x="40" y="86" font-size="13" fill="#555">左の一覧で「General」を選んだ状態</text>
+  <text x="40" y="116" font-size="20" font-weight="bold" fill="#222">General</text>
+  <text x="40" y="158" font-size="15" fill="#222">Language</text>
+  <rect x="190" y="138" width="380" height="30" rx="3" fill="#fff" stroke="#999" stroke-width="1.5"/>
+  <text x="200" y="158" font-size="15" fill="#222" font-family="Consolas, 'Courier New', monospace">日本語</text>
+  <path d="M544 150h12l-6 8z" fill="#666"/>
+  <rect x="186" y="134" width="388" height="38" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <line x1="11" y1="228" x2="889" y2="228" stroke="#999" stroke-opacity="0.5"/>
+  <rect x="770" y="242" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#999" stroke-width="1"/><text x="818" y="264" font-size="14" fill="#333" text-anchor="middle">Cancel</text>
+  <rect x="662" y="242" width="96" height="34" rx="4" fill="#e2e8f0" stroke="#e53e3e" stroke-width="2"/><text x="710" y="264" font-size="14" fill="#333" text-anchor="middle">OK</text>
+  <rect x="659" y="239" width="102" height="40" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <path d="M630,153 L582,153" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="640" y="159" font-size="15" font-weight="bold" fill="#c53030">1. 日本語にする</text>
+  <path d="M710,216 L710,234" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="710" y="210" font-size="15" font-weight="bold" fill="#c53030" text-anchor="middle">2. 「OK」を押す</text>
+</svg>

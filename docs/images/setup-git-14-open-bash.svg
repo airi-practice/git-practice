@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="274" viewBox="0 0 900 274" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>スタートメニューの「Git Bash」</title>
+  <desc>スタートメニューの「Git Bash」。実際の画面を再現した図で、赤い枠と番号の説明が、この手順で操作する場所を示す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="900" height="274" fill="#ffffff"/>
+  <rect x="10" y="10" width="880" height="250" rx="8" fill="#f7fafc" stroke="#999" stroke-width="2"/>
+  <path d="M10 18a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v32h-880z" fill="#e2e8f0" stroke="#999" stroke-width="2"/>
+  <text x="24" y="36" font-size="15" font-weight="bold" fill="#222">スタートメニュー</text>
+  <text x="870" y="37" font-size="18" fill="#666">×</text>
+  <rect x="300" y="72" width="220" height="102" fill="#fff" stroke="#999" stroke-width="2"/>
+  <rect x="302" y="74" width="216" height="30" fill="#bee3f8"/>
+  <text x="314" y="95" font-size="15" font-weight="bold" fill="#1a365d">Git Bash</text>
+  <rect x="300" y="72" width="220" height="34" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/>
+  <text x="314" y="129" font-size="15" fill="#222">Git CMD</text>
+  <text x="314" y="163" font-size="15" fill="#222">Git GUI</text>
+  <path d="M207.40000000000003,89 L294,89" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#r)"/>
+  <text x="26" y="95" font-size="15" font-weight="bold" fill="#c53030">1. 「Git Bash」を開く</text>
+</svg>

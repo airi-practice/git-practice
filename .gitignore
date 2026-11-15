@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# ClaudeCodeファイル
+.claude/settings.local.json
+.claude/history/
+.claude/memory/
+.claude/plans/
+.claude/logs/
+.claude/*.log
+.claude/worktrees/
+
+# MCP設定に機密情報を含めるため除外
+.claude/mcp.local.json
+.mcp.local.json
+
+# OS が生成するファイル
+.DS_Store
+Thumbs.db

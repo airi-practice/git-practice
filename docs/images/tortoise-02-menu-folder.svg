@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="627" viewBox="0 0 300 627" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="701" viewBox="0 0 480 701" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>フォルダーを右クリックしたメニュー（Git のフォルダー）</title>
   <desc>Git で管理しているフォルダーを右クリックしたときのメニュー。「Git コミット(C) -> "main"...」と「TortoiseGit」が出る。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="300" height="627" fill="#ffffff"/>
+  <rect width="480" height="701" fill="#ffffff"/>
   <rect x="0.5" y="0.5" width="299" height="626" rx="8" fill="#f9f9f9" stroke="#b8b8b8"/>
   <text x="42" y="23" font-size="14" font-weight="bold" fill="#1a1a1a">開く(O)</text>
   <text x="42" y="47" font-size="14" fill="#1a1a1a">新しいタブで開く(B)</text>
@@ -47,4 +47,9 @@
   <text x="42" y="581" font-size="14" fill="#1a1a1a">名前の変更(M)</text>
   <path d="M12,592.5 H288" stroke="#d8d8d8"/>
   <text x="42" y="614" font-size="14" fill="#1a1a1a">プロパティ(R)</text>
+  <rect x="4" y="264" width="292" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="318" cy="276" r="11" fill="#e53e3e"/><text x="318" y="281" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <rect x="4" y="288" width="292" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="318" cy="300" r="11" fill="#e53e3e"/><text x="318" y="305" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <rect x="0.5" y="627" width="479" height="74" fill="#fff5f5" stroke="#e5b5b5"/>
+  <text x="14" y="657" font-size="15" font-weight="bold" fill="#c53030">1. 記録する(Commit)。いまのブランチ名が出る</text>
+  <text x="14" y="683" font-size="15" font-weight="bold" fill="#c53030">2. ログ・ブランチなどは、この中</text>
 </svg>

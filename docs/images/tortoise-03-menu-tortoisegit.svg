@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="837" viewBox="0 0 250 837" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1015" viewBox="0 0 480 1015" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>TortoiseGit のサブメニュー</title>
   <desc>右クリックメニューの「TortoiseGit」の中。プル、フェッチ、プッシュ、ログを表示、変更の取り消し、切り替え/チェックアウト、ブランチを作成などが並ぶ。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="250" height="837" fill="#ffffff"/>
+  <rect width="480" height="1015" fill="#ffffff"/>
   <rect x="0.5" y="0.5" width="249" height="836" rx="8" fill="#f9f9f9" stroke="#b8b8b8"/>
   <rect x="14" y="10" width="15" height="15" rx="3" fill="#2e9a3a"/>
   <text x="38" y="23" font-size="14" fill="#1a1a1a">プル(P)...</text>
@@ -77,4 +77,17 @@
   <text x="38" y="800" font-size="14" fill="#1a1a1a">ヘルプ(H)</text>
   <rect x="14" y="811" width="15" height="15" rx="3" fill="#2a6ad6"/>
   <text x="38" y="824" font-size="14" fill="#1a1a1a">TortoiseGit について(B)</text>
+  <rect x="4" y="144" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="156" r="11" fill="#e53e3e"/><text x="268" y="161" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <rect x="4" y="426" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="438" r="11" fill="#e53e3e"/><text x="268" y="443" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <rect x="4" y="531" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="543" r="11" fill="#e53e3e"/><text x="268" y="548" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <rect x="4" y="483" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="495" r="11" fill="#e53e3e"/><text x="268" y="500" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <rect x="4" y="54" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="66" r="11" fill="#e53e3e"/><text x="268" y="71" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">5</text>
+  <rect x="4" y="6" width="242" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="268" cy="18" r="11" fill="#e53e3e"/><text x="268" y="23" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">6</text>
+  <rect x="0.5" y="837" width="479" height="178" fill="#fff5f5" stroke="#e5b5b5"/>
+  <text x="14" y="867" font-size="15" font-weight="bold" fill="#c53030">1. ログを表示(Show log)</text>
+  <text x="14" y="893" font-size="15" font-weight="bold" fill="#c53030">2. 変更を捨てる(Revert...)</text>
+  <text x="14" y="919" font-size="15" font-weight="bold" fill="#c53030">3. ブランチを作成(Create Branch...)</text>
+  <text x="14" y="945" font-size="15" font-weight="bold" fill="#c53030">4. ブランチを切り替え(Switch/Checkout...)</text>
+  <text x="14" y="971" font-size="15" font-weight="bold" fill="#c53030">5. プッシュ(Push...)</text>
+  <text x="14" y="997" font-size="15" font-weight="bold" fill="#c53030">6. プル(Pull...)</text>
 </svg>

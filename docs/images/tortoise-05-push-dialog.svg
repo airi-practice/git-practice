@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="538" height="545" viewBox="0 0 538 545" font-family="Meiryo, 'Yu Gothic', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="538" height="671" viewBox="0 0 538 671" font-family="Meiryo, 'Yu Gothic', sans-serif">
   <title>TortoiseGit のプッシュ画面</title>
-  <desc>TortoiseGit の「プッシュ」ダイアログ。ローカルの main を、宛先のリモート origin の main へ送る。そのまま「OK」を押す。</desc>
+  <desc>TortoiseGit の「プッシュ」ダイアログ。管理(Manage)で送り先 origin を登録し、ローカル(送るブランチ)が main、宛先のリモートが origin になっているのを確かめて OK を押す。</desc>
   <defs>
     <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
   </defs>
-  <rect width="538" height="545" fill="#ffffff"/>
+  <rect width="538" height="671" fill="#ffffff"/>
   <rect x="0.5" y="0.5" width="537" height="544" fill="#f0f0f0" stroke="#707070"/>
   <rect x="1" y="1" width="536" height="30" fill="#ffffff"/>
   <circle cx="14" cy="16" r="6" fill="#7a8ca5"/>
@@ -28,4 +28,13 @@
   <text x="20" y="449" font-size="13" fill="#1a1a1a">サブモジュールを再帰的にチェック</text><rect x="215" y="436" width="175" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="223" y="454" font-size="13" fill="#1a1a1a">無し</text><path d="M372,446 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/>
   <text x="20" y="484" font-size="13" fill="#1a1a1a">プッシュオプション(o):</text><rect x="215" y="466" width="295" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><path d="M492,476 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/>
   <rect x="237" y="507" width="88" height="26" rx="3" fill="#fdfdfd" stroke="#0067c0" stroke-width="2"/><text x="281" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">OK</text><rect x="340" y="507" width="82" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="381" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">キャンセル</text><rect x="437" y="507" width="82" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="478" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">ヘルプ</text>
+  <rect x="436" y="203" width="73" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="436" cy="203" r="11" fill="#e53e3e"/><text x="436" y="208" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <rect x="129" y="205" width="292" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="129" cy="205" r="11" fill="#e53e3e"/><text x="129" y="210" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <rect x="129" y="91" width="347" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="129" cy="91" r="11" fill="#e53e3e"/><text x="129" y="96" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <rect x="237" y="507" width="88" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="237" cy="507" r="11" fill="#e53e3e"/><text x="237" y="512" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <rect x="0.5" y="545" width="537" height="126" fill="#fff5f5" stroke="#e5b5b5"/>
+  <text x="14" y="575" font-size="15" font-weight="bold" fill="#c53030">1. 送り先の登録は「管理」(Manage)から</text>
+  <text x="14" y="601" font-size="15" font-weight="bold" fill="#c53030">2. 宛先のリモート(Remote)が origin</text>
+  <text x="14" y="627" font-size="15" font-weight="bold" fill="#c53030">3. 送るブランチ(ローカル)が main</text>
+  <text x="14" y="653" font-size="15" font-weight="bold" fill="#c53030">4. 確かめたら OK を押す</text>
 </svg>

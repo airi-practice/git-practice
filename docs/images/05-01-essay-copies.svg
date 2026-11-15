@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350" font-family="'Segoe UI','Yu Gothic UI','Meiryo',sans-serif" role="img">
+<title>作文のコピーをまとめる</title>
+<desc>元の作文(ブランチを分ける前の記録)をコピーAとコピーBの2枚に分けて、別々に書き足す。コピーAはmain、コピーBはfeature-aに当たる。そのあと、mainに当たるコピーAにコピーBの内容を取り込んで1枚にまとめる。この作業がマージにたとえられる。</desc>
+<defs>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="2.5" flood-color="#000" flood-opacity="0.16"/></filter>
+<linearGradient id="gGray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+<linearGradient id="gYel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8e1"/><stop offset="1" stop-color="#ffecb3"/></linearGradient>
+<linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffebee"/><stop offset="1" stop-color="#ffd0d6"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#555555"/></marker>
+</defs>
+<rect width="800" height="350" fill="#ffffff"/>
+<text x="30" y="40" font-size="22" fill="#334155" text-anchor="start" font-weight="700">作文のコピーを2枚に分けて、別々に書き足す</text><rect x="30" y="100" width="170" height="64" rx="12" fill="url(#gYel)" stroke="#f9a825" stroke-width="2" filter="url(#sh)"/><text x="115" y="128" font-size="18" fill="#8a5a00" text-anchor="middle" font-weight="700">元の作文</text><text x="115" y="150" font-size="13" fill="#8a5a00" text-anchor="middle">分ける前の記録</text><line x1="205" y1="120" x2="295" y2="88" stroke="#555555" stroke-width="3" marker-end="url(#ar)"/><line x1="205" y1="146" x2="295" y2="180" stroke="#555555" stroke-width="3" marker-end="url(#ar)"/><rect x="300" y="56" width="200" height="64" rx="12" fill="url(#gYel)" stroke="#f9a825" stroke-width="2" filter="url(#sh)"/><text x="400" y="82" font-size="18" fill="#8a5a00" text-anchor="middle" font-weight="700">コピーA = main</text><text x="400" y="106" font-size="13" fill="#8a5a00" text-anchor="middle">ある段落に書き足す</text><rect x="300" y="148" width="200" height="64" rx="12" fill="url(#gYel)" stroke="#f9a825" stroke-width="2" filter="url(#sh)"/><text x="400" y="174" font-size="18" fill="#8a5a00" text-anchor="middle" font-weight="700">コピーB = feature-a</text><text x="400" y="198" font-size="13" fill="#8a5a00" text-anchor="middle">別の段落に書き足す</text><line x1="505" y1="88" x2="590" y2="120" stroke="#555555" stroke-width="3" marker-end="url(#ar)"/><line x1="505" y1="180" x2="590" y2="146" stroke="#555555" stroke-width="3" marker-end="url(#ar)"/><rect x="595" y="100" width="180" height="64" rx="12" fill="url(#gYel)" stroke="#f9a825" stroke-width="2" filter="url(#sh)"/><text x="685" y="128" font-size="18" fill="#8a5a00" text-anchor="middle" font-weight="700">まとめた作文</text><text x="685" y="150" font-size="13" fill="#8a5a00" text-anchor="middle">main に取り込んだ結果</text><text x="548" y="134" font-size="15" fill="#334155" text-anchor="middle">まとめる</text><g transform="translate(60 292) scale(0.85)">
+<path d="M16 58 Q48 62 44 30" fill="none" stroke="#f0a04b" stroke-width="9" stroke-linecap="round"/>
+<path d="M44.5 38 Q45 34 44 30" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+<ellipse cx="0" cy="44" rx="21" ry="22" fill="#f0a04b" stroke="#b8651b" stroke-width="2"/>
+<ellipse cx="-9" cy="64" rx="8" ry="5" fill="#f0a04b" stroke="#b8651b" stroke-width="2"/>
+<ellipse cx="9" cy="64" rx="8" ry="5" fill="#f0a04b" stroke="#b8651b" stroke-width="2"/>
+<polygon points="-27,-12 -25,-40 -7,-27" fill="#f0a04b" stroke="#b8651b" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="27,-12 25,-40 7,-27" fill="#f0a04b" stroke="#b8651b" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="-24,-17 -23,-33 -12,-25" fill="#f8a5b8"/>
+<polygon points="24,-17 23,-33 12,-25" fill="#f8a5b8"/>
+<circle cx="0" cy="0" r="30" fill="#f0a04b" stroke="#b8651b" stroke-width="2"/>
+<path d="M-6 -29 L-6 -19 M0 -30 L0 -18 M6 -29 L6 -19" stroke="#b8651b" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="-11" cy="-2" rx="6" ry="8" fill="#1e293b"/><circle cx="-9" cy="-5" r="2.2" fill="#fff"/>
+<ellipse cx="11" cy="-2" rx="6" ry="8" fill="#1e293b"/><circle cx="13" cy="-5" r="2.2" fill="#fff"/>
+<circle cx="-20" cy="10" r="5" fill="#f8a5b8" opacity="0.9"/><circle cx="20" cy="10" r="5" fill="#f8a5b8" opacity="0.9"/>
+<polygon points="-2.5,6 2.5,6 0,9.5" fill="#e0748f"/>
+<path d="M-5 13 Q0 17 0 9.5 Q0 17 5 13" fill="none" stroke="#7a3d0d" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M-18 27 Q0 37 18 27" fill="none" stroke="#c62828" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="34" r="4.5" fill="#f9a825" stroke="#8a5a00" stroke-width="1"/>
+</g><rect x="120" y="256" width="330" height="76" rx="14" fill="#ffffff" stroke="#f9a825" stroke-width="2"/><polygon points="120,286.0 106,294.0 120,302.0" fill="#ffffff" stroke="#f9a825" stroke-width="2"/><rect x="119" y="287.0" width="3" height="14" fill="#ffffff"/><text x="285.0" y="277.0" font-size="16" fill="#5c3d00" text-anchor="middle">コピーAのmainに、</text><text x="285.0" y="299.0" font-size="16" fill="#5c3d00" text-anchor="middle">コピーBの内容を</text><text x="285.0" y="321.0" font-size="16" fill="#5c3d00" text-anchor="middle">取り込むのがマージなんだ</text>
+</svg>

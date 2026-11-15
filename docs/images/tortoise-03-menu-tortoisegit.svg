@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="837" viewBox="0 0 250 837" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>TortoiseGit のサブメニュー</title>
+  <desc>右クリックメニューの「TortoiseGit」の中。プル、フェッチ、プッシュ、ログを表示、変更の取り消し、切り替え/チェックアウト、ブランチを作成などが並ぶ。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="250" height="837" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="249" height="836" rx="8" fill="#f9f9f9" stroke="#b8b8b8"/>
+  <rect x="14" y="10" width="15" height="15" rx="3" fill="#2e9a3a"/>
+  <text x="38" y="23" font-size="14" fill="#1a1a1a">プル(P)...</text>
+  <rect x="14" y="34" width="15" height="15" rx="3" fill="#3aa04a"/>
+  <text x="38" y="47" font-size="14" fill="#1a1a1a">フェッチ(E)...</text>
+  <rect x="14" y="58" width="15" height="15" rx="3" fill="#4aa83a"/>
+  <text x="38" y="71" font-size="14" fill="#1a1a1a">プッシュ(H)...</text>
+  <path d="M12,82.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="91" width="15" height="15" rx="3" fill="#c9a22b"/>
+  <text x="38" y="104" font-size="14" fill="#1a1a1a">差分(D)</text>
+  <rect x="14" y="115" width="15" height="15" rx="3" fill="#c9a22b"/>
+  <text x="38" y="128" font-size="14" fill="#1a1a1a">前のバージョンとの差分(D)</text>
+  <path d="M12,139.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="148" width="15" height="15" rx="3" fill="#333"/>
+  <text x="38" y="161" font-size="14" fill="#1a1a1a">ログを表示(L)</text>
+  <rect x="14" y="172" width="15" height="15" rx="3" fill="#333"/>
+  <text x="38" y="185" font-size="14" fill="#1a1a1a">RefLogを表示(R)</text>
+  <rect x="14" y="196" width="15" height="15" rx="3" fill="#c9a22b"/>
+  <text x="38" y="209" font-size="14" fill="#1a1a1a">refブラウザ</text>
+  <rect x="14" y="220" width="15" height="15" rx="3" fill="#2a7ad6"/>
+  <text x="38" y="233" font-size="14" fill="#1a1a1a">バックグラウンド稼働</text>
+  <rect x="14" y="244" width="15" height="15" rx="3" fill="#445"/>
+  <text x="38" y="257" font-size="14" fill="#1a1a1a">リビジョングラフ(G)</text>
+  <rect x="14" y="268" width="15" height="15" rx="3" fill="#d9a21b"/>
+  <text x="38" y="281" font-size="14" fill="#1a1a1a">リポジトリブラウザー(R)</text>
+  <rect x="14" y="292" width="15" height="15" rx="3" fill="#8a6d3b"/>
+  <text x="38" y="305" font-size="14" fill="#1a1a1a">変更をチェック(F)</text>
+  <rect x="14" y="316" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="38" y="329" font-size="14" fill="#1a1a1a">リベース(ブランチの付け替え)...</text>
+  <rect x="14" y="340" width="15" height="15" rx="3" fill="#2a8ad6"/>
+  <text x="38" y="353" font-size="14" fill="#1a1a1a">スタッシュへ変更を隠す</text>
+  <path d="M12,364.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="373" width="15" height="15" rx="3" fill="#d33"/>
+  <text x="38" y="386" font-size="14" fill="#1a1a1a">二分探索開始</text>
+  <path d="M12,397.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="406" width="15" height="15" rx="3" fill="#5a9a2a"/>
+  <text x="38" y="419" font-size="14" fill="#1a1a1a">解決する(O)...</text>
+  <rect x="14" y="430" width="15" height="15" rx="3" fill="#3a5fc9"/>
+  <text x="38" y="443" font-size="14" fill="#1a1a1a">変更の取り消し(V)...</text>
+  <rect x="14" y="454" width="15" height="15" rx="3" fill="#c9822b"/>
+  <text x="38" y="467" font-size="14" fill="#1a1a1a">クリーンアップ(C)...</text>
+  <path d="M12,478.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="487" width="15" height="15" rx="3" fill="#3a9a4a"/>
+  <text x="38" y="500" font-size="14" fill="#1a1a1a">切り替え/チェックアウト(W)...</text>
+  <rect x="14" y="511" width="15" height="15" rx="3" fill="#c9822b"/>
+  <text x="38" y="524" font-size="14" fill="#1a1a1a">マージ(M)...</text>
+  <rect x="14" y="535" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="38" y="548" font-size="14" fill="#1a1a1a">ブランチを作成(B)...</text>
+  <rect x="14" y="559" width="15" height="15" rx="3" fill="#f2c200"/>
+  <text x="38" y="572" font-size="14" fill="#1a1a1a">タグを作成(T)...</text>
+  <rect x="14" y="583" width="15" height="15" rx="3" fill="#6a8a4a"/>
+  <text x="38" y="596" font-size="14" fill="#1a1a1a">エクスポート(X)...</text>
+  <path d="M12,607.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="616" width="15" height="15" rx="3" fill="#2a6ad6"/>
+  <text x="38" y="629" font-size="14" fill="#1a1a1a">追加(A) ...</text>
+  <path d="M12,640.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="649" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="38" y="662" font-size="14" fill="#1a1a1a">Worktrees</text>
+  <rect x="14" y="673" width="15" height="15" rx="3" fill="#2a6ad6"/>
+  <text x="38" y="686" font-size="14" fill="#1a1a1a">サブモジュールの追加...</text>
+  <path d="M12,697.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="706" width="15" height="15" rx="3" fill="#6ac96a"/>
+  <text x="38" y="719" font-size="14" fill="#1a1a1a">パッチを作成...</text>
+  <rect x="14" y="730" width="15" height="15" rx="3" fill="#8a9ad6"/>
+  <text x="38" y="743" font-size="14" fill="#1a1a1a">パッチを適用...</text>
+  <path d="M12,754.5 H238" stroke="#d8d8d8"/>
+  <rect x="14" y="763" width="15" height="15" rx="3" fill="#c9822b"/>
+  <text x="38" y="776" font-size="14" fill="#1a1a1a">設定(S)</text>
+  <rect x="14" y="787" width="15" height="15" rx="3" fill="#555"/>
+  <text x="38" y="800" font-size="14" fill="#1a1a1a">ヘルプ(H)</text>
+  <rect x="14" y="811" width="15" height="15" rx="3" fill="#2a6ad6"/>
+  <text x="38" y="824" font-size="14" fill="#1a1a1a">TortoiseGit について(B)</text>
+</svg>

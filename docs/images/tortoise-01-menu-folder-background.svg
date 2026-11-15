@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="265" height="360" viewBox="0 0 265 360" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>フォルダーの空白部分を右クリックしたメニュー</title>
+  <desc>エクスプローラーでフォルダーの何もない所を右クリックしたときのメニュー。「Git クローン(複製)...」「Git ここにリポジトリを作成(Y)...」「TortoiseGit」が並ぶ。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="265" height="360" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="264" height="359" rx="8" fill="#f9f9f9" stroke="#b8b8b8"/>
+  <text x="42" y="23" font-size="14" fill="#1a1a1a">表示(V)</text>
+  <path d="M245,14 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="42" y="47" font-size="14" fill="#1a1a1a">並べ替え(O)</text>
+  <path d="M245,38 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="42" y="71" font-size="14" fill="#1a1a1a">最新の情報に更新(E)</text>
+  <path d="M12,82.5 H253" stroke="#d8d8d8"/>
+  <text x="42" y="104" font-size="14" fill="#aaa">貼り付け(P)</text>
+  <rect x="14" y="115" width="15" height="15" rx="3" fill="#444"/>
+  <text x="42" y="128" font-size="14" fill="#1a1a1a">ターミナルで開く(T)</text>
+  <rect x="14" y="139" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="42" y="152" font-size="14" fill="#1a1a1a">Open Git GUI here</text>
+  <rect x="14" y="163" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="42" y="176" font-size="14" fill="#1a1a1a">Open Git Bash here</text>
+  <path d="M12,187.5 H253" stroke="#d8d8d8"/>
+  <rect x="14" y="196" width="15" height="15" rx="3" fill="#d9a21b"/>
+  <text x="42" y="209" font-size="14" fill="#1a1a1a">Git クローン(複製)...</text>
+  <rect x="14" y="220" width="15" height="15" rx="3" fill="#e0a33a"/>
+  <text x="42" y="233" font-size="14" fill="#1a1a1a">Git ここにリポジトリを作成(Y)...</text>
+  <rect x="14" y="244" width="15" height="15" rx="3" fill="#6c8bb8"/>
+  <text x="42" y="257" font-size="14" fill="#1a1a1a">TortoiseGit</text>
+  <path d="M245,248 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <path d="M12,268.5 H253" stroke="#d8d8d8"/>
+  <text x="42" y="290" font-size="14" fill="#1a1a1a">新規作成(W)</text>
+  <path d="M245,281 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <path d="M12,301.5 H253" stroke="#d8d8d8"/>
+  <rect x="14" y="310" width="15" height="15" rx="3" fill="#3a8ad6"/>
+  <text x="42" y="323" font-size="14" fill="#1a1a1a">ディスプレイ設定(D)</text>
+  <rect x="14" y="334" width="15" height="15" rx="3" fill="#3a8ad6"/>
+  <text x="42" y="347" font-size="14" fill="#1a1a1a">個人用設定(R)</text>
+</svg>

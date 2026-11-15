@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="627" viewBox="0 0 300 627" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>フォルダーを右クリックしたメニュー（Git のフォルダー）</title>
+  <desc>Git で管理しているフォルダーを右クリックしたときのメニュー。「Git コミット(C) -> "main"...」と「TortoiseGit」が出る。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="300" height="627" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="299" height="626" rx="8" fill="#f9f9f9" stroke="#b8b8b8"/>
+  <text x="42" y="23" font-size="14" font-weight="bold" fill="#1a1a1a">開く(O)</text>
+  <text x="42" y="47" font-size="14" fill="#1a1a1a">新しいタブで開く(B)</text>
+  <text x="42" y="71" font-size="14" fill="#1a1a1a">新しいウィンドウで開く(E)</text>
+  <text x="42" y="95" font-size="14" fill="#1a1a1a">クイック アクセスにピン留めする(Q)</text>
+  <rect x="14" y="106" width="15" height="15" rx="3" fill="#444"/>
+  <text x="42" y="119" font-size="14" fill="#1a1a1a">ターミナルで開く(T)</text>
+  <rect x="14" y="130" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="42" y="143" font-size="14" fill="#1a1a1a">Open Git GUI here</text>
+  <rect x="14" y="154" width="15" height="15" rx="3" fill="#e8793a"/>
+  <text x="42" y="167" font-size="14" fill="#1a1a1a">Open Git Bash here</text>
+  <rect x="14" y="178" width="15" height="15" rx="3" fill="#2a6fc9"/>
+  <text x="42" y="191" font-size="14" fill="#1a1a1a">Microsoft Defender でスキャンする...</text>
+  <path d="M12,202.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="224" font-size="14" fill="#1a1a1a">アクセスを許可する(G)</text>
+  <path d="M280,215 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <path d="M12,235.5 H288" stroke="#d8d8d8"/>
+  <rect x="14" y="244" width="15" height="15" rx="3" fill="#d9a21b"/>
+  <text x="42" y="257" font-size="14" fill="#1a1a1a">Git 同期(N)...</text>
+  <rect x="14" y="268" width="15" height="15" rx="3" fill="#3a9a4a"/>
+  <text x="42" y="281" font-size="14" fill="#1a1a1a">Git コミット(C) -> "main"...</text>
+  <rect x="14" y="292" width="15" height="15" rx="3" fill="#6c8bb8"/>
+  <text x="42" y="305" font-size="14" fill="#1a1a1a">TortoiseGit</text>
+  <path d="M280,296 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <path d="M12,316.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="338" font-size="14" fill="#1a1a1a">以前のバージョンの復元(V)</text>
+  <text x="42" y="362" font-size="14" fill="#1a1a1a">ライブラリに追加(I)</text>
+  <path d="M280,353 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <text x="42" y="386" font-size="14" fill="#1a1a1a">スタート にピン留めする(P)</text>
+  <text x="42" y="410" font-size="14" fill="#1a1a1a">パスのコピー(A)</text>
+  <path d="M12,421.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="443" font-size="14" fill="#1a1a1a">送る(N)</text>
+  <path d="M280,434 l5,4 l-5,4" stroke="#444" stroke-width="1.4" fill="none"/>
+  <path d="M12,454.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="476" font-size="14" fill="#1a1a1a">切り取り(T)</text>
+  <text x="42" y="500" font-size="14" fill="#1a1a1a">コピー(C)</text>
+  <path d="M12,511.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="533" font-size="14" fill="#1a1a1a">ショートカットの作成(S)</text>
+  <text x="42" y="557" font-size="14" fill="#1a1a1a">削除(D)</text>
+  <text x="42" y="581" font-size="14" fill="#1a1a1a">名前の変更(M)</text>
+  <path d="M12,592.5 H288" stroke="#d8d8d8"/>
+  <text x="42" y="614" font-size="14" fill="#1a1a1a">プロパティ(R)</text>
+</svg>

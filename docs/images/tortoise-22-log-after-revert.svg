@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="514" viewBox="0 0 760 514" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>TortoiseGit のログ画面（打ち消しの記録が増えた後）</title>
+  <desc>TortoiseGit の「ログメッセージ」ダイアログ。一番上に「失敗した変更を取り消す」の記録が増え、その下に「失敗した変更」の記録が消えずに残っている。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="760" height="514" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="759" height="439" fill="#f0f0f0" stroke="#707070"/>
+  <rect x="1" y="1" width="758" height="30" fill="#ffffff"/>
+  <circle cx="14" cy="16" r="6" fill="#7a8ca5"/>
+  <text x="380" y="21" font-size="13" fill="#1a1a1a" text-anchor="middle">ログメッセージ - TortoiseGit</text>
+  <path d="M733,11 L743,21 M743,11 L733,21" stroke="#222" stroke-width="1.2"/>
+  <rect x="696" y="11" width="10" height="10" fill="none" stroke="#222" stroke-width="1.2"/>
+  <path d="M654,16 h10" stroke="#222" stroke-width="1.2"/>
+  <text x="8" y="57" font-size="13" fill="#c00">main</text><path d="M8,60 h27" stroke="#c00"/>
+  <rect x="170" y="41" width="400" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="180" y="59" font-size="12" fill="#777">...み条件: 件名, メッセージ, パス, 作者, メール, SHA-1, Ref</text><rect x="580" y="41" width="170" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="588" y="59" font-size="13" fill="#1a1a1a">作者メールアドレス</text><path d="M732,51 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/>
+  <rect x="9" y="76" width="742" height="126" fill="#fff" stroke="#999"/>
+  <path d="M78,78 V200 M168,78 V200 M600,78 V200" stroke="#e8f0f8"/>
+  <text x="15" y="94" font-size="13" fill="#1a1a1a">グラフ</text><text x="85" y="94" font-size="13" fill="#1a1a1a">アクション</text><text x="175" y="94" font-size="13" fill="#1a1a1a">メッセージ</text><text x="607" y="94" font-size="13" fill="#1a1a1a">作者</text>
+  <rect x="10" y="102" width="740" height="24" fill="#cce4f7" stroke="#3399ff" stroke-dasharray="2 2"/>
+  <path d="M23,114 V186" stroke="#000" stroke-width="2"/><circle cx="23" cy="114" r="4" fill="#000"/><path d="M104,108 h9 v11 h-9 z M107,114 h5 M109.5,111.5 v5" fill="#fff" stroke="#2a4fc9" stroke-width="1.5"/><rect x="171" y="104" width="40" height="18" rx="2" fill="#c00"/><text x="176" y="118" font-size="12" font-weight="bold" fill="#fff">main</text><text x="220" y="118" font-size="13" fill="#1a1a1a">失敗した変更を取り消す</text><text x="607" y="118" font-size="13" fill="#1a1a1a">your-name</text><circle cx="23" cy="138" r="4" fill="#000"/><path d="M104,132 h9 v11 h-9 z M107,138 h5 M109.5,135.5 v5" fill="#fff" stroke="#2a4fc9" stroke-width="1.5"/><text x="175" y="142" font-size="13" fill="#1a1a1a">失敗した変更</text><text x="607" y="142" font-size="13" fill="#1a1a1a">your-name</text><circle cx="23" cy="162" r="4" fill="#000"/><path d="M104,156 h9 v11 h-9 z M107,162 h5 M109.5,159.5 v5" fill="#fff" stroke="#2a4fc9" stroke-width="1.5"/><text x="175" y="166" font-size="13" fill="#1a1a1a">2行目を追加</text><text x="607" y="166" font-size="13" fill="#1a1a1a">your-name</text><circle cx="23" cy="186" r="4" fill="#000"/><path d="M104,180 h9 v11 h-9 z M107,186 h5 M109.5,183.5 v5" fill="#fff" stroke="#2a4fc9" stroke-width="1.5"/><text x="175" y="190" font-size="13" fill="#1a1a1a">memo.txt を作成</text><text x="607" y="190" font-size="13" fill="#1a1a1a">your-name</text>
+  <rect x="9" y="212" width="742" height="22" fill="#fff" stroke="#999"/><text x="12" y="228" font-size="12" fill="#1a1a1a" font-family="Consolas, 'Courier New', monospace">SHA-1:</text>
+  <rect x="9" y="244" width="742" height="94" fill="#fff" stroke="#999"/><path d="M400,245 V337 M460,245 V337 M510,245 V337 M590,245 V337 M670,245 V337" stroke="#e8f0f8"/>
+  <text x="15" y="262" font-size="13" fill="#1a1a1a">パス</text><text x="407" y="262" font-size="13" fill="#1a1a1a">拡張子</text><text x="467" y="262" font-size="13" fill="#1a1a1a">状態</text><text x="517" y="262" font-size="13" fill="#1a1a1a">追加した行</text><text x="597" y="262" font-size="13" fill="#1a1a1a">削除した行</text>
+  <text x="15" y="286" font-size="13" fill="#0b57d0">memo.txt</text><text x="407" y="286" font-size="13" fill="#0b57d0">.txt</text><text x="467" y="286" font-size="13" fill="#0b57d0">変更</text><text x="580" y="286" font-size="13" fill="#0b57d0" text-anchor="end">0</text><text x="660" y="286" font-size="13" fill="#0b57d0" text-anchor="end">1</text>
+  <text x="10" y="356" font-size="12" fill="#1a1a1a">4 件のリビジョンを表示中</text><text x="220" y="356" font-size="12" fill="#1a1a1a">1 件のリビジョンを選択、0 件のファイルを選択しています。</text>
+  <rect x="10" y="370" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="32" y="382" font-size="13" fill="#1a1a1a">すべてのブランチ(A)</text><rect x="9" y="400" width="110" height="26" rx="3" fill="#fdfdfd" stroke="#adadad"/><text x="64" y="418" font-size="13" fill="#1a1a1a" text-anchor="middle">更新</text><rect x="665" y="400" width="86" height="26" rx="3" fill="#fdfdfd" stroke="#adadad"/><text x="708" y="418" font-size="13" fill="#1a1a1a" text-anchor="middle">OK</text>
+  <rect x="10" y="102" width="740" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="10" cy="102" r="11" fill="#e53e3e"/><text x="10" y="107" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <rect x="10" y="126" width="740" height="24" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="10" cy="126" r="11" fill="#e53e3e"/><text x="10" y="131" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <rect x="0.5" y="440" width="759" height="74" fill="#fff5f5" stroke="#e5b5b5"/>
+  <text x="14" y="470" font-size="15" font-weight="bold" fill="#c53030">1. 一番上に、打ち消しの記録「失敗した変更を取り消す」が増えている</text>
+  <text x="14" y="496" font-size="15" font-weight="bold" fill="#c53030">2. 「失敗した変更」の記録は、消えずに残っている</text>
+</svg>

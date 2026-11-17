@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="532" viewBox="0 0 900 532" font-family="'Segoe UI','Yu Gothic UI','Meiryo',sans-serif">
+  <title>ゲームで失敗したセーブは残したまま、失敗を取り消した状態を新しくセーブする。Git の打ち消しも、元のコミットを残して打ち消しのコミットを足す図</title>
+  <desc>3つのコマが並ぶ。1 セーブ1はステージ2・コイン3の状態（Git では変更する前のコミット）。2 セーブ2は失敗したあとのセーブで、そのまま残す（Git では取り消したい変更が入ったコミット）。3 失敗を取り消した状態を新しいセーブ3として保存する（Git では打ち消しの内容を新しいコミットとして記録する）。セーブ3の状態はセーブ1と同じになる。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="headBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e7ad6"/><stop offset="1" stop-color="#1257a8"/></linearGradient>
+    <linearGradient id="headGreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#43a047"/><stop offset="1" stop-color="#2a7330"/></linearGradient>
+    <linearGradient id="headOrange" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ef6c00"/><stop offset="1" stop-color="#b83c00"/></linearGradient>
+    <linearGradient id="headGray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7b8794"/><stop offset="1" stop-color="#4b5563"/></linearGradient>
+    <linearGradient id="headYellow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd54f"/><stop offset="1" stop-color="#f9a825"/></linearGradient>
+    <linearGradient id="headRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e53935"/><stop offset="1" stop-color="#a61c1c"/></linearGradient>
+    <linearGradient id="headP1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8e24aa"/><stop offset="1" stop-color="#5a1480"/></linearGradient>
+    <linearGradient id="headP2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12998a"/><stop offset="1" stop-color="#00625a"/></linearGradient>
+    <linearGradient id="headP3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c2185b"/><stop offset="1" stop-color="#8e0f42"/></linearGradient>
+    <linearGradient id="headP4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#607d8b"/><stop offset="1" stop-color="#37474f"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="rack" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6dbf73"/><stop offset="1" stop-color="#3f9a47"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.16"/></filter>
+    <marker id="arB" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1565c0"/></marker>
+    <marker id="arG" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d32"/></marker>
+    <marker id="arO" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e65100"/></marker>
+    <marker id="arK" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555555"/></marker>
+    <marker id="arR" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c62828"/></marker>
+    <marker id="arY" markerWidth="3.2" markerHeight="3.2" viewBox="0 0 10 10" refX="7" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#f9a825"/></marker>
+  </defs>
+  <rect width="900" height="532" fill="url(#bg)"/>
+
+  <text x="450" y="38" font-size="22" font-weight="bold" fill="#1e293b" text-anchor="middle">失敗したセーブは残して、取り消した状態を新しくセーブする</text>
+
+  <g filter="url(#shadow)"><rect x="40" y="62" width="220" height="214" rx="16" fill="#ffffff" stroke="#f9a825" stroke-width="2"/></g>
+  <path d="M40 108 v-30 a16 16 0 0 1 16 -16 h188 a16 16 0 0 1 16 16 v30 z" fill="url(#headYellow)"/>
+  <text x="150" y="93" font-size="18" font-weight="bold" fill="#5c3d00" text-anchor="middle">セーブ1</text>
+  <circle cx="62" cy="85" r="11" fill="#ffffff" stroke="#f9a825" stroke-width="2"/>
+  <text x="62" y="90" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="middle">1</text>
+  <g><rect x="55" y="118" width="190" height="96" rx="8" fill="#fffdf2" stroke="#f9a825" stroke-width="2"/>
+  <text x="65" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">ステージ2</text><circle cx="201" cy="135" r="7" fill="#f9a825" stroke="#8a5a00" stroke-width="1.5"/><text x="213" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">×3</text><rect x="63" y="194" width="174" height="6" rx="3" fill="#f9a825"/><path d="M223 194 V164" stroke="#8a5a00" stroke-width="2.5" stroke-linecap="round"/><path d="M223 164 l14 6 l-14 6 z" fill="#8a5a00"/><rect x="117" y="172" width="22" height="22" rx="6" fill="#f9a825" stroke="#8a5a00" stroke-width="2"/><circle cx="124" cy="181" r="2.4" fill="#1e293b"/><circle cx="132" cy="181" r="2.4" fill="#1e293b"/></g>
+  <text x="150" y="244" font-size="15" fill="#8a5a00" text-anchor="middle">うまく進んだ状態</text>
+  <text x="150" y="266" font-size="15" fill="#8a5a00" text-anchor="middle">ステージ2・コイン3</text>
+  <line x1="150" y1="282" x2="150" y2="318" stroke="#555555" stroke-width="4" stroke-linecap="round" marker-end="url(#arK)"/>
+  <text x="160" y="306" font-size="13" fill="#334155" text-anchor="start">Git では</text>
+  <rect x="40" y="324" width="220" height="70" rx="10" fill="#f1f5f9" stroke="#555555" stroke-width="1.5"/>
+  <text x="150" y="351" font-size="15" font-weight="bold" fill="#334155" text-anchor="middle">変更する前の</text>
+  <text x="150" y="374" font-size="15" font-weight="bold" fill="#334155" text-anchor="middle">コミット</text>
+  <line x1="264" y1="170" x2="336" y2="170" stroke="#555555" stroke-width="4" stroke-linecap="round" marker-end="url(#arK)"/>
+  <text x="300" y="154" font-size="13" font-weight="bold" fill="#334155" text-anchor="middle">失敗した</text>
+
+  <g filter="url(#shadow)"><rect x="340" y="62" width="220" height="214" rx="16" fill="#ffffff" stroke="#c62828" stroke-width="2"/></g>
+  <path d="M340 108 v-30 a16 16 0 0 1 16 -16 h188 a16 16 0 0 1 16 16 v30 z" fill="url(#headRed)"/>
+  <text x="450" y="93" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">セーブ2</text>
+  <circle cx="362" cy="85" r="11" fill="#ffffff" stroke="#c62828" stroke-width="2"/>
+  <text x="362" y="90" font-size="13" font-weight="bold" fill="#8e1b1b" text-anchor="middle">2</text>
+  <g><rect x="355" y="118" width="190" height="96" rx="8" fill="#fffdf2" stroke="#c62828" stroke-width="2"/>
+  <text x="365" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">ステージ3</text><circle cx="501" cy="135" r="7" fill="#f9a825" stroke="#8a5a00" stroke-width="1.5"/><text x="513" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">×5</text><rect x="363" y="194" width="174" height="6" rx="3" fill="#f9a825"/><path d="M523 194 V164" stroke="#8a5a00" stroke-width="2.5" stroke-linecap="round"/><path d="M523 164 l14 6 l-14 6 z" fill="#8a5a00"/><rect x="465" y="172" width="22" height="22" rx="6" fill="#f9a825" stroke="#8a5a00" stroke-width="2"/><circle cx="472" cy="181" r="2.4" fill="#1e293b"/><circle cx="480" cy="181" r="2.4" fill="#1e293b"/>
+  <text x="450" y="166" font-size="15" font-weight="bold" fill="#8e1b1b" text-anchor="middle">失敗!</text></g>
+  <text x="450" y="244" font-size="15" fill="#8e1b1b" text-anchor="middle">失敗したあとのセーブ</text>
+  <text x="450" y="266" font-size="15" fill="#8e1b1b" text-anchor="middle">そのまま残す</text>
+  <line x1="450" y1="282" x2="450" y2="318" stroke="#555555" stroke-width="4" stroke-linecap="round" marker-end="url(#arK)"/>
+  <text x="460" y="306" font-size="13" fill="#334155" text-anchor="start">Git では</text>
+  <rect x="340" y="324" width="220" height="70" rx="10" fill="#ffebee" stroke="#c62828" stroke-width="1.5"/>
+  <text x="450" y="351" font-size="15" font-weight="bold" fill="#8e1b1b" text-anchor="middle">取り消したい変更が</text>
+  <text x="450" y="374" font-size="15" font-weight="bold" fill="#8e1b1b" text-anchor="middle">入ったコミット</text>
+  <line x1="564" y1="170" x2="636" y2="170" stroke="#555555" stroke-width="4" stroke-linecap="round" marker-end="url(#arK)"/>
+  <text x="600" y="154" font-size="13" font-weight="bold" fill="#334155" text-anchor="middle">取り消す</text>
+
+  <g filter="url(#shadow)"><rect x="640" y="62" width="220" height="214" rx="16" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/></g>
+  <path d="M640 108 v-30 a16 16 0 0 1 16 -16 h188 a16 16 0 0 1 16 16 v30 z" fill="url(#headGreen)"/>
+  <text x="750" y="93" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">新しいセーブ3</text>
+  <circle cx="662" cy="85" r="11" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
+  <text x="662" y="90" font-size="13" font-weight="bold" fill="#1b4d1f" text-anchor="middle">3</text>
+  <g><rect x="655" y="118" width="190" height="96" rx="8" fill="#fffdf2" stroke="#f9a825" stroke-width="2"/>
+  <text x="665" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">ステージ2</text><circle cx="801" cy="135" r="7" fill="#f9a825" stroke="#8a5a00" stroke-width="1.5"/><text x="813" y="140" font-size="13" font-weight="bold" fill="#8a5a00" text-anchor="start">×3</text><rect x="663" y="194" width="174" height="6" rx="3" fill="#f9a825"/><path d="M823 194 V164" stroke="#8a5a00" stroke-width="2.5" stroke-linecap="round"/><path d="M823 164 l14 6 l-14 6 z" fill="#8a5a00"/><rect x="717" y="172" width="22" height="22" rx="6" fill="#f9a825" stroke="#8a5a00" stroke-width="2"/><circle cx="724" cy="181" r="2.4" fill="#1e293b"/><circle cx="732" cy="181" r="2.4" fill="#1e293b"/></g>
+  <text x="750" y="244" font-size="15" fill="#1b4d1f" text-anchor="middle">失敗を取り消した状態を</text>
+  <text x="750" y="266" font-size="15" fill="#1b4d1f" text-anchor="middle">新しくセーブする</text>
+  <line x1="750" y1="282" x2="750" y2="318" stroke="#555555" stroke-width="4" stroke-linecap="round" marker-end="url(#arK)"/>
+  <text x="760" y="306" font-size="13" fill="#334155" text-anchor="start">Git では</text>
+  <rect x="640" y="324" width="220" height="70" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1.5"/>
+  <text x="750" y="351" font-size="15" font-weight="bold" fill="#1b4d1f" text-anchor="middle">打ち消しの内容を、新しい</text>
+  <text x="750" y="374" font-size="15" font-weight="bold" fill="#1b4d1f" text-anchor="middle">コミットとして記録する</text>
+
+  <g transform="translate(11.2 192) scale(0.6)"><ellipse cx="110" cy="550" rx="48" ry="6" fill="#1E293B" opacity="0.15"/><g transform="translate(0 0)"><path d="M142 534 C190 540 200 490 180 468" fill="none" stroke="#E08A3C" stroke-width="15" stroke-linecap="round"/><circle cx="180" cy="468" r="8" fill="#FFF1DC"/><ellipse cx="110" cy="518" rx="36" ry="32" fill="#F2A04A"/><ellipse cx="110" cy="524" rx="20" ry="22" fill="#FFF1DC"/><ellipse cx="92" cy="545" rx="13" ry="7" fill="#FFF1DC"/><ellipse cx="128" cy="545" rx="13" ry="7" fill="#FFF1DC"/><path d="M82 512 L76 534" stroke="#F2A04A" stroke-width="17" stroke-linecap="round"/><circle cx="76" cy="534" r="9.5" fill="#FFF1DC"/><path d="M138 504 L170 470" stroke="#F2A04A" stroke-width="17" stroke-linecap="round"/><circle cx="170" cy="470" r="9.5" fill="#FFF1DC"/><g transform="rotate(-5 110 490)"><path d="M60 432 L58 392 L98 410 z M160 432 L162 392 L122 410 z" fill="#F2A04A" stroke="#F2A04A" stroke-width="10" stroke-linejoin="round"/><path d="M68 420 L67 402 L86 410 z M152 420 L153 402 L134 410 z" fill="#F9A8B8" stroke="#F9A8B8" stroke-width="4" stroke-linejoin="round"/><path d="M50 466 l-11 3 l10 7 z M170 466 l11 3 l-10 7 z" fill="#F2A04A" stroke="#F2A04A" stroke-width="3" stroke-linejoin="round"/><ellipse cx="110" cy="452" rx="62" ry="52" fill="#F2A04A"/><ellipse cx="110" cy="468" rx="30" ry="22" fill="#FFF1DC"/><path d="M110 402 v13 M95 405 l3 11 M125 405 l-3 11" fill="none" stroke="#D9822B" stroke-width="4" stroke-linecap="round"/><ellipse cx="68" cy="474" rx="12" ry="7.5" fill="#FB8FA3" opacity="0.7"/><ellipse cx="152" cy="474" rx="12" ry="7.5" fill="#FB8FA3" opacity="0.7"/><path d="M62 472 l4 6 M69 471 l4 6 M147 471 l4 6 M154 472 l4 6" stroke="#F0708A" stroke-width="1.6" stroke-linecap="round"/><ellipse cx="82" cy="452" rx="12" ry="15" fill="#1E293B"/><ellipse cx="138" cy="452" rx="12" ry="15" fill="#1E293B"/><circle cx="86" cy="446" r="5" fill="#fff"/><circle cx="142" cy="446" r="5" fill="#fff"/><circle cx="78" cy="459" r="2.4" fill="#fff"/><circle cx="134" cy="459" r="2.4" fill="#fff"/><path d="M105 466 h10 l-5 5 z" fill="#F9768B" stroke="#F9768B" stroke-width="2" stroke-linejoin="round"/><path d="M110 471 q-6 8 -12 1 M110 471 q6 8 12 1" fill="none" stroke="#7C4A1E" stroke-width="2.2" stroke-linecap="round"/><g stroke="#7C4A1E" stroke-width="1.8" stroke-linecap="round" opacity="0.55"><path d="M60 464 l-12 -3 M60 470 l-12 3 M160 464 l12 -3 M160 470 l12 3"/></g></g><path d="M80 497 q30 16 60 0" fill="none" stroke="#EF4444" stroke-width="8" stroke-linecap="round"/><circle cx="110" cy="507" r="6" fill="#FBBF24" stroke="#D99A06" stroke-width="1.5"/><path d="M110 510 v3" stroke="#D99A06" stroke-width="2" stroke-linecap="round"/></g></g>
+  <g filter="url(#shadow)"><rect x="176" y="416" width="684" height="92" rx="18" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/></g>
+  <path d="M178 446 L128 462 L178 476 z" fill="#ffffff" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="175" y="449" width="6" height="25" fill="#ffffff"/>
+  <text x="518" y="442" font-size="16" fill="#1e293b" text-anchor="middle">失敗したセーブ2は消さずに残るんだ。</text>
+  <text x="518" y="468" font-size="16" fill="#1e293b" text-anchor="middle">失敗を取り消した状態を、</text>
+  <text x="518" y="494" font-size="16" fill="#1e293b" text-anchor="middle">新しいセーブ3にするイメージだよ。</text>
+</svg>

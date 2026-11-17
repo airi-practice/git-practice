@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="538" height="671" viewBox="0 0 538 671" font-family="Meiryo, 'Yu Gothic', sans-serif">
+  <title>TortoiseGit のプッシュ画面（自分のブランチを送る）</title>
+  <desc>TortoiseGit の「プッシュ」ダイアログ。ローカル(送るブランチ)もリモート(送り先のブランチ名)も、自分のブランチ ks/banana になっている。宛先のリモートは origin。main になっていないことを確かめて OK を押す。</desc>
+  <defs>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e53e3e"/></marker>
+  </defs>
+  <rect width="538" height="671" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="537" height="544" fill="#f0f0f0" stroke="#707070"/>
+  <rect x="1" y="1" width="536" height="30" fill="#ffffff"/>
+  <circle cx="14" cy="16" r="6" fill="#7a8ca5"/>
+  <text x="269" y="21" font-size="13" fill="#1a1a1a" text-anchor="middle">プッシュ - TortoiseGit</text>
+  <path d="M511,11 L521,21 M521,11 L511,21" stroke="#222" stroke-width="1.2"/>
+  <rect x="8" y="46" width="518" height="130" fill="none" stroke="#d5d5d5"/>
+  <rect x="14" y="38" width="45" height="16" fill="#f0f0f0"/>
+  <text x="17" y="51" font-size="13" fill="#1a1a1a">Ref</text><rect x="20" y="64" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="76" font-size="13" fill="#1a1a1a">すべてのブランチをプッシュ(P)</text>
+  <text x="20" y="108" font-size="13" fill="#1a1a1a">ローカル(L):</text><rect x="129" y="91" width="347" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="137" y="109" font-size="13" fill="#1a1a1a">ks/banana</text><path d="M458,101 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/><rect x="487" y="91" width="26" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="500" y="109" font-size="13" fill="#1a1a1a" text-anchor="middle">▸</text>
+  <text x="20" y="150" font-size="13" fill="#1a1a1a">リモート(R):</text><rect x="129" y="133" width="347" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="137" y="151" font-size="13" fill="#1a1a1a">ks/banana</text><path d="M458,143 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/><rect x="487" y="133" width="26" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="500" y="151" font-size="13" fill="#1a1a1a" text-anchor="middle">...</text>
+  <rect x="8" y="190" width="518" height="84" fill="none" stroke="#d5d5d5"/>
+  <rect x="14" y="182" width="32" height="16" fill="#f0f0f0"/>
+  <text x="17" y="195" font-size="13" fill="#1a1a1a">宛先</text><circle cx="27" cy="217" r="7" fill="#fff" stroke="#0067c0"/><circle cx="27" cy="217" r="4.5" fill="#0067c0"/><text x="42" y="222" font-size="13" fill="#1a1a1a">リモート(M):</text><rect x="129" y="205" width="292" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="137" y="223" font-size="13" fill="#1a1a1a">origin</text><path d="M403,215 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/><rect x="436" y="203" width="73" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="472.5" y="221" font-size="13" fill="#1a1a1a" text-anchor="middle">管理(G)</text>
+  <circle cx="27" cy="251" r="7" fill="#fff" stroke="#444"/><text x="42" y="256" font-size="13" fill="#1a1a1a">任意のURL:</text><rect x="129" y="240" width="380" height="26" rx="3" fill="#f4f4f4" stroke="#d0d0d0"/><path d="M491,250 l5,5 l5,-5" stroke="#bbb" stroke-width="1.4" fill="none"/>
+  <rect x="8" y="296" width="518" height="190" fill="none" stroke="#d5d5d5"/>
+  <rect x="14" y="288" width="71" height="16" fill="#f0f0f0"/>
+  <text x="17" y="301" font-size="13" fill="#1a1a1a">オプション</text>
+  <rect x="20" y="314" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="326" font-size="13" fill="#1a1a1a">占有ブランチに強制(W) (fo</text><rect x="215" y="314" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="237" y="326" font-size="13" fill="#1a1a1a">強制(F) (force)</text>
+  <rect x="20" y="334" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="346" font-size="13" fill="#1a1a1a">タグを含める(T)</text><rect x="20" y="355" width="14" height="14" rx="2" fill="#fff" stroke="#bbb"/><text x="42" y="367" font-size="13" fill="#8a8a8a">Putty 鍵の自動ロード(A)</text><rect x="20" y="376" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="388" font-size="13" fill="#1a1a1a">上流/追跡対象のリモートブランチに設定(S)</text>
+  <rect x="20" y="397" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="409" font-size="13" fill="#1a1a1a">このローカルブランチでのpushを常に指定のリモートアーカイブへのプッシュとする</text><rect x="20" y="418" width="14" height="14" rx="2" fill="#fff" stroke="#444"/><text x="42" y="430" font-size="13" fill="#1a1a1a">このローカルブランチでのpushを常に指定のリモートブランチへのプッシュとする</text>
+  <text x="20" y="449" font-size="13" fill="#1a1a1a">サブモジュールを再帰的にチェック</text><rect x="215" y="436" width="175" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><text x="223" y="454" font-size="13" fill="#1a1a1a">無し</text><path d="M372,446 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/>
+  <text x="20" y="484" font-size="13" fill="#1a1a1a">プッシュオプション(o):</text><rect x="215" y="466" width="295" height="26" rx="3" fill="#fff" stroke="#8a8a8a"/><path d="M492,476 l5,5 l5,-5" stroke="#555" stroke-width="1.4" fill="none"/>
+  <rect x="237" y="507" width="88" height="26" rx="3" fill="#fdfdfd" stroke="#0067c0" stroke-width="2"/><text x="281" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">OK</text><rect x="340" y="507" width="82" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="381" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">キャンセル</text><rect x="437" y="507" width="82" height="26" rx="3" fill="#fdfdfd" stroke="#adadad" stroke-width="1"/><text x="478" y="525" font-size="13" fill="#1a1a1a" text-anchor="middle">ヘルプ</text>
+  <rect x="129" y="91" width="347" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="129" cy="91" r="11" fill="#e53e3e"/><text x="129" y="96" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <rect x="129" y="133" width="347" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="129" cy="133" r="11" fill="#e53e3e"/><text x="129" y="138" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <rect x="129" y="205" width="292" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="129" cy="205" r="11" fill="#e53e3e"/><text x="129" y="210" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <rect x="237" y="507" width="88" height="26" rx="4" fill="none" stroke="#e53e3e" stroke-width="2"/><circle cx="237" cy="507" r="11" fill="#e53e3e"/><text x="237" y="512" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <rect x="0.5" y="545" width="537" height="126" fill="#fff5f5" stroke="#e5b5b5"/>
+  <text x="14" y="575" font-size="15" font-weight="bold" fill="#c53030">1. ローカル(送るブランチ)が、自分のブランチ。main ではない</text>
+  <text x="14" y="601" font-size="15" font-weight="bold" fill="#c53030">2. リモート(送り先のブランチ名)も、自分のブランチ。main ではない</text>
+  <text x="14" y="627" font-size="15" font-weight="bold" fill="#c53030">3. 宛先のリモートが origin</text>
+  <text x="14" y="653" font-size="15" font-weight="bold" fill="#c53030">4. 1〜3 を確かめてから OK を押す</text>
+</svg>

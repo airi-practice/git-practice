@@ -72,7 +72,7 @@ Git は、ファイルの変更履歴を記録してくれるソフトだよ。�
 
 4. 使用許諾の画面で「Next」を押す。
 
-   ![使用許諾の画面](docs/images/setup-git-04-license.svg)
+   ![Git のインストーラーの使用許諾の画面。内容を確かめて「Next」を押す](docs/images/setup-git-04-license.svg)
 
 5. インストール先の画面で、何も変えずに「Next」を押す。
 
@@ -80,7 +80,7 @@ Git は、ファイルの変更履歴を記録してくれるソフトだよ。�
 
 6. 部品の選択画面で、何も変えずに「Next」を押す。
 
-   ![部品の選択画面](docs/images/setup-git-06-components.svg)
+   ![Git のインストーラーの部品の選択画面。何も変えずに「Next」を押す](docs/images/setup-git-06-components.svg)
 
 7. スタートメニューの画面で、何も変えずに「Next」を押す。
 
@@ -98,11 +98,11 @@ Git は、ファイルの変更履歴を記録してくれるソフトだよ。�
 
 10. PATH の画面で、何も変えずに「Next」を押す。
 
-    ![PATH の画面](docs/images/setup-git-10-path.svg)
+    ![Git のインストーラーの PATH の画面。何も変えずに「Next」を押す](docs/images/setup-git-10-path.svg)
 
 11. 残りの画面(SSH、HTTPS、改行の扱いなど)は、すべて何も変えずに「Next」を押して進める。
 
-    ![残りの画面の一例](docs/images/setup-git-11-defaults.svg)
+    ![Git のインストーラーの残りの画面の一例。何も変えずに「Next」を押して進める](docs/images/setup-git-11-defaults.svg)
 
 12. 「Install」を押す。
 
@@ -110,7 +110,7 @@ Git は、ファイルの変更履歴を記録してくれるソフトだよ。�
 
 13. 完了画面で「Finish」を押す。
 
-    ![完了画面](docs/images/setup-git-13-finish.svg)
+    ![Git のインストーラーの完了画面。「Finish」を押す](docs/images/setup-git-13-finish.svg)
 
 #### 設定
 
@@ -174,7 +174,7 @@ TortoiseGit は、Git をマウスで操作できるようにするソフトだ�
 
 5. 使用許諾の画面で、内容を確かめて「Next」を押す。
 
-   ![使用許諾の画面](docs/images/setup-tortoise-05-license.svg)
+   ![TortoiseGit のインストーラーの使用許諾の画面。内容を確かめて「Next」を押す](docs/images/setup-tortoise-05-license.svg)
 
 6. SSH クライアントの選択画面で、何も変えずに「Next」を押す。
 
@@ -190,11 +190,11 @@ TortoiseGit は、Git をマウスで操作できるようにするソフトだ�
 
 9. 完了画面で「Finish」を押す。
 
-   ![完了画面](docs/images/setup-tortoise-09-finish.svg)
+   ![TortoiseGit のインストーラーの完了画面。「Finish」を押す](docs/images/setup-tortoise-09-finish.svg)
 
 10. 再起動を求められたら、パソコンを再起動する。
 
-    ![再起動を求める画面](docs/images/setup-tortoise-10-restart.svg)
+    ![TortoiseGit のインストール後に、再起動を求める画面。パソコンを再起動する](docs/images/setup-tortoise-10-restart.svg)
 
 #### 設定
 
@@ -212,7 +212,7 @@ TortoiseGit は、Git をマウスで操作できるようにするソフトだ�
 
 14. 認証の画面で、何も変えずに「Finish」を押す。
 
-    ![認証の画面](docs/images/setup-tortoise-14-wizard-finish.svg)
+    ![TortoiseGit の最初の設定の、認証の画面。何も変えずに「Finish」を押す](docs/images/setup-tortoise-14-wizard-finish.svg)
 
 15. 適当なフォルダーの何もない場所で右クリックし、「TortoiseGit」というメニューが出ることを確かめる。
 
@@ -232,7 +232,7 @@ TortoiseGit は、そのままだと画面が英語だよ。日本語の言語�
 
 1. TortoiseGit のダウンロードページ(https://tortoisegit.org/download/)を開き、「Language Packs」の欄までスクロールする。
 
-   ![言語パックの欄](docs/images/setup-lang-01-open-list.svg)
+   ![TortoiseGit のダウンロードページの「Language Packs」の欄。日本語の言語パックを探す](docs/images/setup-lang-01-open-list.svg)
 
 2. 自分のパソコンに合う版(64bit)の「Japanese」の行のリンクを押して、ダウンロードする。
 
@@ -254,7 +254,7 @@ TortoiseGit は、そのままだと画面が英語だよ。日本語の言語�
 
 6. 完了画面で「Finish」を押す。
 
-   ![完了画面](docs/images/setup-lang-06-finish.svg)
+   ![言語パックのインストーラーの完了画面。「Finish」を押す](docs/images/setup-lang-06-finish.svg)
 
 #### 設定
 
